@@ -24,23 +24,23 @@ export const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={CSS} alt="HTML icon" />
-            <p className="my-4">HTML</p>
+            <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
-            <p className="my-4">HTML</p>
+            <p className="my-4">Javascript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
-            <p className="my-4">HTML</p>
+            <p className="my-4">Github</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4">HTML</p>
+            <p className="my-4">Tailwind</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
-            <p className="my-4">HTML</p>
+            <p className="my-4">React</p>
           </div>
         </div>
       </div>
