@@ -21,7 +21,7 @@ export const Home = () => {
         </p>
         <div>
           <button className="group flex items-center text-white border-2 px-6 py-3 my-2 hover:bg-[#b68d3a] hover:border-[#b68d3a]">
-            View Work
+            Contact Me
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
