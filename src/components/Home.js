@@ -15,7 +15,7 @@ export const Home = () => {
         </h2>
         <p className="text-[#83a4da] py-4 mx-w-[700]">
           I'm an enthusiastic and detail-oriented Frontend Software Engineer,
-          seeking an entry-level position with Company to use my skills in
+          seeking an ENTRY-LEVEL position with Company to use my skills in
           coding, troubleshooting complex problems, and assisting in the timely
           completion of projects.
         </p>
