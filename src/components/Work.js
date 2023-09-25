@@ -1,5 +1,6 @@
 import React from "react";
 import Trafalgar from "../assets/trafalgar.png";
+import crypto from "../assets/crypto.png";
 
 export const Work = () => {
   return (
@@ -14,12 +15,12 @@ export const Work = () => {
 
         {/* container for projects */}
 
+        {/* Gird Item */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Gird Item */}
-
+          {/* First Item */}
           <div
-            style={{ backgroundImage: `url(${Trafalgar})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            style={{ backgroundImage: `url(${Trafalgar})`, backgroundSize: 'contain' }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-gray-200"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
@@ -36,6 +37,35 @@ export const Work = () => {
                 </a>
                 <a
                   href="https://github.com/BendUOverr/Trafalgar"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 p-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div> 
+            </div>
+          </div>
+          {/* second item */}
+          <div
+            style={{ backgroundImage: `url(${crypto})`, backgroundSize: 'contain' }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-gray-700"
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                React JS Application
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://lambent-melba-d530ad.netlify.app/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 p-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/BendUOverr/CryptoSci"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 p-3 m-2 bg-white text-gray-700 font-bold text-lg">
