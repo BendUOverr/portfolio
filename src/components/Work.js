@@ -104,7 +104,7 @@ export const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/BendUOverr/CryptoSci"
+                  href="https://github.com/BendUOverr/BeachesApp"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 p-3 m-2 bg-white text-gray-700 font-bold text-lg">
