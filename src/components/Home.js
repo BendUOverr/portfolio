@@ -12,10 +12,10 @@ export const Home = () => {
           Luka Buadze,
         </h1>
         <h2 className="text-4xl sm:text-6xl font-bold text-[#83a4da]">
-          I am a FRONTEND Developer,
+          I am a FULL-STACK Developer,
         </h2>
         <p className="text-[#83a4da] py-4 mx-w-[700]">
-          I'm an enthusiastic and detail-oriented Frontend Software Engineer,
+          I'm an enthusiastic and detail-oriented FULL-STACK Software Engineer,
           seeking an ENTRY-LEVEL position with Company to use my skills in
           coding, troubleshooting complex problems, and assisting in the timely
           completion of projects.

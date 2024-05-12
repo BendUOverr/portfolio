@@ -5,6 +5,8 @@ import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import Tailwind from "../assets/tailwind.png";
+import Laravel from "../assets/laravel.png";
+import php from "../assets/php.png";
 
 export const Skills = () => {
   return (
@@ -41,6 +43,14 @@ export const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
             <p className="my-4">React</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 mt-2">
+            <img className="w-20 mx-auto" src={php} alt="HTML icon" />
+            <p className="my-4">PHP</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 mt-2">
+            <img className="w-20 mx-auto" src={Laravel} alt="HTML icon" />
+            <p className="my-4">Laravel</p>
           </div>
         </div>
       </div>
